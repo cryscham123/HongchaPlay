@@ -1,13 +1,19 @@
 @import "reset.css";
-@import "variables.css";
-@import "components/header-bar.css";
-@import "screens/index.css";
 @import "https://fonts.googleapis.com/css2?family=Open+Sans&display=swap";
 
 body {
-  background-color: var(--back-color);
-  font-family: "Open Sans", sans-serif;
+  background-color: black;
 }
-a {
-  text-decoration: none;
+.column {
+  height: 100vh;
+  width: 1px;
+  background-color: white;
+}
+.row {
+  height: 1px;
+  width: 100%;
+  background-color: white;
+}
+span {
+  color: white;
 }
